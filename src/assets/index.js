@@ -28,7 +28,7 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
-import robot from "./hero/fox.gif";
+import robot from "./hero/check.mp4";
 import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-2.svg";
