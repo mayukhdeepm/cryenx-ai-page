@@ -47,9 +47,8 @@ function Hero() {
       <div className="container relative">
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6 hero-title">
-            Elevate Your Business with Tailored &nbsp;AI&nbsp;for Tomorrow's{" "}
-            <span className="inline-block relative">
-              Leaders!{" "}
+          Real results. <span className="inline-block relative">
+              Smart AI{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -57,15 +56,16 @@ function Hero() {
                 height={28}
                 alt="Curve"
               />
-            </span>
+            </span> solutions. Built for ambitious brands.{" "}
+            
           </h1>
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8 hero-subtitle">
+          {/* <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8 hero-subtitle">
             Unleash the power of AI with Cryenx. Upgrade your productivity with
             Cryenx.
-          </p>
+          </p> */}
           <div className="hero-btn">
             <Button href="#about" white>
-              Get started
+              Know More
             </Button>
           </div>
         </div>

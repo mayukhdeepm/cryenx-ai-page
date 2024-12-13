@@ -66,8 +66,8 @@ export const navigation = [
  
   {
     id: "0",
-    title: "Projects",
-    url: "#projects",
+    title: "Work",
+    url: "#work",
   },
 
  
@@ -116,8 +116,8 @@ export const roadmap = [
   {
     id: "0",
     title: "Discovery Stage",
-    text: "Understand your challenges and define a clear direction for your solution.",
-    text1: "30% increase in project alignment with business goals, enhancing ROI by reducing misaligned efforts.",
+    text: " Our discovery process identifies key challenges, ensuring every solution is purpose-built to maximize ROI by reducing misaligned efforts.",
+    text1: "Align your goals with precision",
     date: "Step 1",
     status: "done",
     imageUrl: roadmap1,
@@ -126,8 +126,8 @@ export const roadmap = [
   {
     id: "1",
     title: "Requirement Analysis",
-    text: "Identify specific pain points and customize solutions to address them.",
-    text1: "Tailored chatbots improve customer satisfaction by 50%",
+    text: "By analyzing key pain points, we craft bespoke solutions, such as custom chatbots, proven to enhance customer satisfaction by up to 50%.",
+    text1: "Tailored for your needs",
     date: "Step 2",
     status: "done",
     imageUrl: roadmap2,
@@ -135,8 +135,8 @@ export const roadmap = [
   {
     id: "2",
     title: "Process Strategization",
-    text: "Develop a clear roadmap that ensures alignment and collaboration between teams.",
-    text1: "40% reduction in training costs, boosting ROI by accelerating employee productivity.",
+    text: "With a focused roadmap, we accelerate employee productivity, reducing training costs by 40% and driving measurable ROI.",
+    text1: "Plan smarter, execute better",
     date: "Step 3",
     status: "in progress",
     imageUrl: roadmap3,
@@ -144,8 +144,8 @@ export const roadmap = [
   {
     id: "3",
     title: "Technology Identification",
-    text: "Select the best technologies for seamless integration and scalability.",
-    text1: "Advanced AI tools enhance operational efficiency by 25%",
+    text: " We identify cutting-edge AI technologies tailored to your needs, ensuring seamless integration and scalable efficiency for long-term success.",
+    text1: "Smart solutions start here",
     date: "Step 4",
     status: "in progress",
     imageUrl: roadmap4,
@@ -153,8 +153,8 @@ export const roadmap = [
   {
     id: "4",
     title: "QA & Compliance Testing",
-    text: "Ensure the solution meets quality standards and regulatory compliance.",
-    text1: "Rigorous QA reduces post-deployment issues by 35%, ensuring higher ROI by minimizing maintenance expenses and downtime.",
+    text: "Our rigorous QA process reduces post-deployment issues by 35%, minimizing downtime and maintenance costs while meeting all compliance standards.",
+    text1: "Deliver with confidence",
     date: "Step 5",
     status: "in progress",
     imageUrl: roadmap5,
@@ -162,8 +162,8 @@ export const roadmap = [
   {
     id: "5",
     title: "Deployment",
-    text: "Custom AI Modules & AI Wrappers enhance functionality.",
-    text1: "Tailored modules boost user engagement by 60%, ensuring greater ROI through increased adoption and efficiency.",
+    text: "Tailored AI modules boost user engagement by 60%, increasing adoption and ensuring greater ROI through streamlined functionality.",
+    text1: "Deploy for impact",
     date: "Step 6",
     status: "in progress",
     imageUrl: roadmap6,
@@ -171,8 +171,8 @@ export const roadmap = [
   {
     id: "6",
     title: "Evaluating Results",
-    text: "Continuously assess outcomes and optimize for sustained value.",
-    text1: "Continuous evaluation drives a 70% improvement in decision-making speed, maximizing ROI by enabling faster",
+    text: " Our continuous evaluation drives a 70% improvement in decision-making, enabling faster, data-driven strategies for long-term success.",
+    text1: "Refine and grow",
     date: "Step 7",
     status: "in progress",
     imageUrl: roadmap7,
@@ -180,7 +180,7 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "At Cryenx Labs, we revolutionize businesses with cutting-edge AI solutions tailored for the future. From custom chatbots to seamless UI workflows, our innovative tools empower you to elevate operations and engage customers like never before. Let us help you unlock the full potential of AI and transform your vision into reality!";
+  "We’re not just another AI company—we’re your partner in innovation and growth. At Cryenx Labs, we specialize in crafting cutting-edge AI solutions designed to help ambitious brands achieve measurable, ROI-driven results.";
 
 export const collabContent = [
   {
