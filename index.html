@@ -10,6 +10,30 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cryenx Labs</title>
+    <script>
+      function updateFavicon() {
+        const favicon = document.getElementById('dynamicFavicon');
+        const currentHour = new Date().getHours();
+
+        // Define morning and night time ranges
+        const isMorning = currentHour >= 6 && currentHour < 18;
+
+        // Update favicon based on time
+        if (isMorning) {
+          // Morning (6:00 AM to 5:59 PM): White icon
+          favicon.href = './src/assets/cryenx-symbol-black.svg';
+        } else {
+          // Night (6:00 PM to 5:59 AM): Black icon
+          favicon.href = './src/assets/cryenx-symbol.svg';
+        }
+      }
+
+      // Update favicon immediately when page loads
+      updateFavicon();
+
+      // Optional: Update favicon every minute to handle time changes
+      setInterval(updateFavicon, 60000);
+    </script>
   </head>
   <body>
     <div id="root"></div>
