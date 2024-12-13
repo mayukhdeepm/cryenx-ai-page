@@ -10,25 +10,6 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cryenx Labs</title>
-    
-    <script>
-      // Function to update favicon based on color scheme
-      function updateFavicon() {
-        const faviconLink = document.getElementById('dynamicFavicon');
-        const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        
-        // Change favicon path based on color scheme
-        faviconLink.href = isDarkMode 
-          ? './src/assets/cryenx-symbol-white.svg'  // Dark mode favicon
-          : './src/assets/cryenx-symbol.svg'; // Light mode favicon
-      }
-
-      // Initial favicon setup
-      updateFavicon();
-
-      // Listen for color scheme changes
-      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
-    </script>
   </head>
   <body>
     <div id="root"></div>
