@@ -3,15 +3,24 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #231f20;
-      }
-
-      .cls-1, .cls-2 {
-        stroke-width: 0px;
+        fill: currentColor;
       }
 
       .cls-2 {
-        fill: #001423;
+        fill: currentColor;
+        stroke-width: 0px;
+      }
+
+      /* Default color */
+      svg {
+        color: #000;
+      }
+
+      /* Dark mode */
+      @media (prefers-color-scheme: dark) {
+        svg {
+          color: #fff;
+        }
       }
     </style>
   </defs>

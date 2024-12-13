@@ -6,7 +6,7 @@
       id="dynamicFavicon"
       rel="icon"
       type="image/svg+xml"
-      href="./public/assets/favicon/cryenx-symbol-white.svg"
+      href="./src/assets/cryenx-symbol-black.svg"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cryenx Labs</title>
@@ -14,22 +14,5 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-    <script>
-      const updateFavicon = (isDarkMode) => {
-        const favicon = document.getElementById('dynamicFavicon');
-        favicon.href = isDarkMode
-          ? './public/assets/favicon/cryenx-symbol-white.svg'
-          : './public/assets/favicon/cryenx-symbol-black.svg';
-      };
-
-      // Check current color scheme
-      const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
-      updateFavicon(prefersDarkScheme.matches);
-
-      // Listen for theme changes
-      prefersDarkScheme.addEventListener('change', (event) => {
-        updateFavicon(event.matches);
-      });
-    </script>
   </body>
 </html>
